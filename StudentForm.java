@@ -36,10 +36,10 @@ public class StudentForm {
 	if(b==false)
 		throw new Exception("NumberFormatException: enter a valid number");
 	///////////////////////////
-	System.out.println("Enter your HSG marks");	
+	System.out.println("Enter your HSG marks(<=360)");	
 	HsgMarks=sc.nextDouble();
 	//////////////////////////
-	System.out.println("Enter your UG marks");	
+	System.out.println("Enter your UG marks(<=300)");	
 	Ugmarks=sc.nextDouble();
 	}
 	public void displayData()
